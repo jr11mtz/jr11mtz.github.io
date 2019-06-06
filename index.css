@@ -1,0 +1,48 @@
+
+* 
+{ 
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: .1rem;
+}
+
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+h1
+{
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2
+{
+    
+    font-family: 'Mrs Saint Delafield', cursive; 
+    font-size: 11rem;
+    text-align: center;
+
+}
+
+h3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;  
+    border-style: solid; 
+    margin-bottom: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+body
+{
+    background-image: linear-gradient(to top, rgba(192,192,192,0), rgba(192,192,192,1));
+
+}
+
