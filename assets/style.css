@@ -1,0 +1,167 @@
+/* for card layout */
+.gallery-row {
+    margin-bottom: 2rem;
+}
+
+.card-body{
+    border:1em solid black;
+    border-top: 0;
+    margin-top: 1;
+
+}
+
+.card-body a{ /* changes the style of a only when it's inside of card-body */
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-body a:hover{ /* changes the style of a ON HOVER and only when it's inside of card-body */
+    color: silver;
+}
+
+.title
+{
+  font-family: 'Josefin Slab', serif;
+    font-size: 6rem;
+    text-align: center;
+    background-color: white;
+    padding:2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left:10rem;
+    margin-right:10rem;
+
+}
+
+body
+{ 
+    background-image: linear-gradient(to top, rgba(192,192,192,0), rgba(192,192,192,1));
+}
+
+hr{
+    border: solid;
+    color:black;
+}
+
+.paragraph
+{
+    background-color: #d6d4d4;
+    padding: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    word-spacing: .4rem; 
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    line-height: 2.rem;
+}
+
+.homename{
+    background-color: white;
+    padding:2rem;
+    border:solid;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-size: 7rem;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+
+}
+
+.homejobs{
+   background-color:black;
+   color:white;
+   padding:1rem;
+   margin-left: 25rem;
+   margin-right: 25rem;
+   font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  word-spacing: 2rem;
+
+}
+
+.homeline
+{
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem; 
+}
+.homeparagraph{
+  text-align: left;
+  background-color: #d6d4d4;
+  padding: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  word-spacing: .4rem; 
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* line-height: 2.rem; */
+}
+h3{
+  background-color:black;
+   color:white;
+   padding:1rem;
+   margin-left: 25rem;
+   margin-right: 25rem;
+   margin-top: 4rem;
+   margin-bottom: 2rem;
+   font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+* { box-sizing: border-box; }
+
+.container.fluid{
+  background-image: black;
+  padding: 4rem;
+}
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+@media (max-width: 575px) {
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+  }
+}
+@media (min-width: 26rem) and (max-width: 46rem) {
+  .grid-sizer,
+  .grid-item {
+    width: 50%;
+  }
+}
+.grid-item {
+    float: left;
+    border: solid;
+    background-color: black;
+  }
+  
+.grid-item img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+.grid{
+margin-top:4rem;
+background-color: black;
+padding: .1rem;
+}
+
+
