@@ -38,7 +38,6 @@
   <img src="barnes2.jpg" style="width:100%">
 </div>
 </div>
-
 </div>
 
 <h4>About:</h4>
