@@ -22,39 +22,32 @@
     #Alt text is the text that gets read by screenreaders for accessibility (typically for the visually impaired) 
 
 +++
+<div class="row"> 
+  <div class="column">
+  <img src="judah2.jpg" style="width:100%">
+  <img src="judah1.jpg" style="width:100%">
+</div>
+ 
+  <div class="column">
+  <img src="judah5.jpg" style="width:100%">
+  <img src="judah4.jpg" style="width:100%">
+</div>
 
-<div class="container-fluid">
-<div class="grid">
-    <div class="grid-sizer"></div>
-    <div class="grid-item">
-      <img src="judah2.JPG" />
-    </div>
-    <div class="grid-item">
-      <img src="judah5.JPG" />
-    </div>
-    <div class="grid-item">
-      <img src="judah3.JPG" />
-    </div>
-    <div class="grid-item">
-      <img src="judah1.JPG" />
-    </div>
-    <div class="grid-item">
-      <img src="judah4.JPG" />
-    </div>
-     <div class="grid-item">
-      <img src="judah6.JPG" />
-    </div>
- </div>
+<div class="column">
+  <img src="judah3.jpg" style="width:100%">
+  <img src="judah6.jpg" style="width:100%">
+</div>
+</div>
 
 </div>
 
-<h3>About:</h3>
+<h4>About:</h4>
 
-<div class="titleline">
+<div class="projectline">
 <hr>
 </div>
 
-<div class="paragraph">
+<div class="paragraph2">
 <p>Judah & the Lion performed for ALT94.7 at Entercom Sacramento. They performed three songs during their soundstage: “Over my Head,” “Why Did You Run,” and “pep talk.” During their performance, I was assigned to capture shots of each member of the band and group shots with the listeners.</p>
 </div>
 

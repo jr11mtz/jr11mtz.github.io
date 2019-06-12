@@ -22,37 +22,31 @@
     #Alt text is the text that gets read by screenreaders for accessibility (typically for the visually impaired) 
 
 +++
-<div class="container-fluid">
-<div class="grid">
-    <div class="grid-sizer"></div>
-    <div class="grid-item">
-      <img src="barnes6.JPG" />
-    </div>
-    <div class="grid-item">
-      <img src="barnes1.JPG" />
-    </div>
-    <div class="grid-item">
-      <img src="barnes5.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="barnes3.JPG" />
-    </div>
-    <div class="grid-item">
-      <img src="barnes2.JPG" />
-    </div>
-     <div class="grid-item">
-      <img src="barnes4.JPG" />
-    </div>
- </div>
+<div class="row"> 
+  <div class="column">
+  <img src="barnes6.jpg" style="width:100%">
+  <img src="barnes4.jpg" style="width:100%">
+</div>
+ 
+  <div class="column">
+  <img src="barnes1.jpg" style="width:100%">
+  <img src="barnes3.jpg" style="width:100%">
+</div>
+
+<div class="column">
+  <img src="barnes5.jpg" style="width:100%">
+  <img src="barnes2.jpg" style="width:100%">
+</div>
+</div>
 
 </div>
 
-<h3>About:</h3>
+<h4>About:</h4>
 
-<div class="titleline">
+<div class="projectline">
 <hr>
 </div>
 
-<div class="paragraph">
+<div class="paragraph2">
 <p>Music discovery is a small music festival where rising artists in alternative rock come to Sacramento to perform their latest music. Before the show began, I had to position cameras around the stage to record each performance of the festival. During the festival, I had to photograph performances by the band “Me and You” and rock artists, Barnes Courtney. I also had to capture phots of the audience interacting with the artists and their reactions meeting them.</p>
 </div>

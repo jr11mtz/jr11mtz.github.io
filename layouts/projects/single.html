@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700|Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Josefin+Slab|Montserrat&display=swap" rel="stylesheet">
 <head>
     {{ partial "head.html" . }}
     {{/*  imports "head.html" from the partials/ folder in layouts/  */}}
     {{/*  the second argument is the context for variables in "head.html" and using "." means use the same variable namespace as this document  */}}
 </head>
 <body>
+<h1  class="homename">Iran Martinez</h1>
     {{ partial "navbar.html" (dict "context" . "originPage" "project") }}
     <div class="container">
 
@@ -48,6 +49,6 @@
             Do that in the .md file for the project  */}}
      
     </div>
-    
+    {{ partial "scripts.html" }}
 </body>
 </html>

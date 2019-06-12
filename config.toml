@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
-title = "Iran Martinez Jr."
+title = "Iran Martinez"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+publishDir="../jr11mtz.github.io"

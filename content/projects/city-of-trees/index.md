@@ -23,28 +23,22 @@
     #Alt text is the text that gets read by screenreaders for accessibility (typically for the visually impaired) 
 
 +++
-<div class="container-fluid">
-<div class="grid">
-     <div class="grid-sizer"></div>
-    <div class="grid-item">
-      <img src="cot4.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="cot2.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="cot3.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="cot1.jpg" />
-    </div>
-    <div class="grid-item">
-      <img src="cot5.jpg" />
-    </div>
-     <div class="grid-item">
-      <img src="cot6.jpg" />
-    </div>
- </div>
+<div class="row"> 
+  <div class="column">
+  <img src="cot4.jpg" style="width:100%">
+  <img src="cot1.jpg" style="width:100%">
+</div>
+ 
+  <div class="column">
+  <img src="cot2.jpg" style="width:100%">
+  <img src="cot5.jpg" style="width:100%">
+</div>
+
+<div class="column">
+  <img src="cot3.jpg" style="width:100%">
+  <img src="cot6.jpg" style="width:100%">
+</div>
+</div>
 
  <h3>About:</h3>
 

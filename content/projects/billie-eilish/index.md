@@ -22,30 +22,76 @@
     #Alt text is the text that gets read by screenreaders for accessibility (typically for the visually impaired) 
 
 +++
-<div class="container-fluid">
+<!--<div class="container-fluid">
 <div class="grid">
     <div class="grid-sizer"></div>
     <div class="grid-item">
-      <img src="billie2.JPG" />
+        <img src="billie2.JPG" />
     </div>
     <div class="grid-item">
-      <img src="billie6.JPG" />
+        <img src="billie6.JPG" />
     </div>
     <div class="grid-item">
-      <img src="billie1.JPG" />
+        <img src="billie1.JPG" />
     </div>
     <div class="grid-item">
-      <img src="billie5.JPG" />
+        <img src="billie5.JPG" />
     </div>
     <div class="grid-item">
-      <img src="billie3.JPG" />
+        <img src="billie3.JPG" />
     </div>
-     <div class="grid-item">
-      <img src="billie4.jpg" />
+    <div class="grid-item">
+        <img src="billie4.jpg" />
     </div>
- </div>
 
- <h3>About:</h3>
+<!--<div class="card-columns">
+  <div class="card">
+    <img class="card-img-top" src="billie2.JPG" alt="Card image cap">
+</div>
+
+<div class="card-columns">
+  <div class="card">
+    <img class="card-img-top" src="billie6.JPG" alt="Card image cap">
+</div>
+
+<div class="card-columns">
+  <div class="card">
+    <img class="card-img-top" src="billie1.JPG" alt="Card image cap">
+</div>
+
+<div class="card-columns">
+  <div class="card">
+    <img class="card-img-top" src="billie5.JPG" alt="Card image cap">
+</div>
+
+<div class="card-columns">
+  <div class="card">
+    <img class="card-img-top" src="billie3.JPG" alt="Card image cap">
+</div>
+
+<div class="card-columns">
+  <div class="card">
+    <img class="card-img-top" src="billie4.jpg" alt="Card image cap">
+</div>-->
+
+<div class="row"> 
+  <div class="column">
+  <img src="billie2.jpg" style="width:100%">
+  <img src="billie5.jpg" style="width:100%">
+</div>
+ 
+  <div class="column">
+  <img src="billie6.jpg" style="width:100%">
+  <img src="billie3.jpg" style="width:100%">
+</div>
+
+<div class="column">
+  <img src="billie1.jpg" style="width:100%">
+  <img src="billie4.jpg" style="width:100%">
+</div>
+</div>
+
+<h3>About:</h3>
 
 <div class="titleline">
 <hr>
