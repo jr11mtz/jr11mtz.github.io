@@ -31,14 +31,17 @@
     padding:1rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
-    margin-left:17rem;
-    margin-right:17rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 
 }
 
 body
 { 
     background-image: linear-gradient(to top, rgba(192,192,192,0), rgba(192,192,192,1));
+
 }
 
 hr{
@@ -53,8 +56,10 @@ hr{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
     word-spacing: .4rem; 
-    margin-left: 5rem;
-    margin-right: 5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
     margin-top: 2rem;
     margin-bottom: 4rem;
     line-height: 2.rem;
@@ -67,8 +72,10 @@ hr{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
     word-spacing: .4rem; 
-    margin-left: 15rem;
-    margin-right: 15rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
     margin-top: 2rem;
     margin-bottom: 4rem;
     line-height: 2.rem;
@@ -78,6 +85,10 @@ hr{
     background-color: white;
     padding:2rem;
     border-bottom:solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
     margin-top: 0rem;
     margin-bottom: 2rem;
     font-size: 7rem;
@@ -87,12 +98,14 @@ hr{
 }
 
 .homejobs{
-   background-color:black;
-   color:white;
-   padding:1rem;
-   margin-left: 25rem;
-   margin-right: 25rem;
-   font-size: 1.5rem;
+  background-color:black;
+  color:white;
+  padding:1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  font-size: 1.5rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   word-spacing: 2rem;
@@ -119,8 +132,10 @@ hr{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
   word-spacing: .4rem; 
-  margin-left: 6.5rem;
-  margin-right: 6.5rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:85%;
   margin-top: 2rem;
   margin-bottom: 2rem;
   /* line-height: 2.rem; */
@@ -129,8 +144,10 @@ h3{
   background-color:black;
   color:white;
   padding:1rem;
-  margin-left: 25rem;
-  margin-right: 25rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:25%;
   margin-top: 4rem;
   margin-bottom: 2rem;
   font-size: 1.5rem;
@@ -142,8 +159,10 @@ h4{
   background-color:black;
   color:white;
   padding:1rem;
-  margin-left: 34rem;
-  margin-right: 34rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:25%;
   margin-top: 4rem;
   margin-bottom: 2rem;
   font-size: 1.5rem;
